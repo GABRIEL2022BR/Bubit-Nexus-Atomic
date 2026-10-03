@@ -5,6 +5,6 @@ on:
 
 jobs:
   build:
-    uses: blue-build/cli-action/.github/workflows/iso.yml@main
+    uses: blue-build/actions/.github/workflows/iso.yml@main
     with:
       recipe: recipes/recipe.yml

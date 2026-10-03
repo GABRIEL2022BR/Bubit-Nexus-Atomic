@@ -19,8 +19,8 @@ modules:
 
   - type: dnf
     repos:
-      - name: terra
-      baseurl: https://repos.fyralabs.com/terra.repo
+    files:
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.rep
     install:
       packages:
         - micro
@@ -29,6 +29,7 @@ modules:
         - nvim
         - kitty
         - sddm
+        - terra-release
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)

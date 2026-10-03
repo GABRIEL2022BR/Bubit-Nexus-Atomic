@@ -19,6 +19,8 @@ modules:
 
   - type: dnf
     repos:
+      files:
+      - https://repos.fyralabs.com/terra.repo
       copr:
         - atim/starship
     install:
@@ -27,6 +29,10 @@ modules:
         - starship
         - fastfetch
         - nvim
+        - kitty
+        - sddm
+        - mangowm
+        - noctalia
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)

@@ -20,8 +20,6 @@ modules:
   - type: dnf
     repos:
       - https://repos.fyralabs.com/terra.repo
-    copr:
-        - atim/starship
     install:
       packages:
         - micro

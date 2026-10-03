@@ -19,7 +19,7 @@ modules:
 
   - type: dnf
     repos:
-      - https://repos.fyralabs.com/terra.repo
+      - terra
     install:
       packages:
         - micro

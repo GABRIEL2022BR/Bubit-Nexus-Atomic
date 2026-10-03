@@ -19,7 +19,6 @@ modules:
 
   - type: dnf
     repos:
-      files:
       - https://repos.fyralabs.com/terra.repo
       copr:
         - atim/starship
